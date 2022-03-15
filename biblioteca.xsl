@@ -9,7 +9,10 @@
 
 <xsl:template match="libro">
      
-      <div>
+      <p id="invisible">Viewport muy estreccho</p>
+      
+    
+      <div id ="visible">
       <img>
           <xsl:attribute name="src">
              <xsl:value-of select="foto"/>
@@ -23,7 +26,7 @@
      <xsl:value-of select="autor"/>
      </p>
 
-</div>
+ </div>
   </xsl:template>
   
 </xsl:stylesheet>
