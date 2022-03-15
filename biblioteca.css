@@ -1,6 +1,26 @@
+
+
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 p{
-color:blue !important;
+color:blue;
 background-color:yellow;
+max-width: 550px;
+margin-left: 20px;
+margin-right: 20px;
+
 }
 
+img{
+    max-width: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
 
+div{
+    display: inline-table;
+   
+}

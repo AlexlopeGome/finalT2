@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<biblioteca>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<?xml-stylesheet href="biblioteca.css"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///B:/Xamp/htdocs/REPOSITOS/finalT2/biblioteca.xsd">
   <libro>
-    <titulo>La vida está en otra parte</titulo>
+     <foto>miki.webp</foto>
+    <titulo>Los dias  de Mike en la playa </titulo>
     <autor>Milan Kundera</autor>
-    <fechaPublicacion/>
+    <fechaPublicacion año="1999"/>
   </libro>
   <libro>
-    <titulo>Pantaleón y las visitadoras</titulo>
+    <foto>senda.webp</foto>
+    <titulo>Senda de en su  mejor siesta</titulo>
     <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
     <fechaPublicacion año="1973"/>
   </libro>
   <libro>
-    <titulo>Conversación en la catedral</titulo>
+    <foto>summer.webp</foto>
+    <titulo>La espera de Sammer</titulo>
     <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
     <fechaPublicacion año="1969"/>
   </libro>

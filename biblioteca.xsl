@@ -6,15 +6,24 @@
       <xsl:apply-templates />
     </body></html>
   </xsl:template>
-  
-  
-  <xsl:template match="libro">
-     <p>
-     <xsl:value-of select="autor"/>
-     </p>
+
+<xsl:template match="libro">
+     
+      <div>
+      <img>
+          <xsl:attribute name="src">
+             <xsl:value-of select="foto"/>
+          </xsl:attribute>
+        </img>
+     
      <h2>
      <xsl:value-of select="titulo"/>
-     </h2>     
+     </h2>
+<p>
+     <xsl:value-of select="autor"/>
+     </p>
+
+</div>
   </xsl:template>
   
 </xsl:stylesheet>
