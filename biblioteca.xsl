@@ -22,7 +22,8 @@
      <h2>
      <xsl:value-of select="titulo"/>
      </h2>
-<p>
+     
+      <p>
      <xsl:value-of select="autor"/>
      </p>
 
